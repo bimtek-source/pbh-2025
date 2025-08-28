@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+
+.photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 20%;
+  background-image: url("https://25.media.tumblr.com/tumblr_mbwy0qsQCZ1rwxbrao1_500.gif");
+  background-size: cover;
+  background-position: 50% 50%;
+  -webkit-filter: blur(1px) grayscale(0.4) brightness(0.5);
+  -webkit-transform-origin: top left;
+  -webkit-transform: scale(5);
+}
+
+.frame {
+  position: relative;
+  z-index: 2;
+  color: #d1c7a7;
+  width: 80%;
+  margin: 0 auto;
+}
